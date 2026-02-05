@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.4;
-    color: black;
+    color: white;
 }
 header {
     background: #123a61;
@@ -19,7 +19,7 @@ header {
 }
 
 header h1 img {
-    width: 60px;
+    width: 100px;
     height: auto;
 }
 
@@ -81,10 +81,13 @@ table img {
 footer {
     text-align: center;
     font-size: 0.75rem;
-    color: #555;
+    color: purple;
     padding: 1rem 0;
     border-top: 1px solid #ccc;
     margin-top: 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    padding-bottom: 1rem;
 }
 form {
     max-width: 500px;
@@ -128,6 +131,19 @@ form button {
 
 form button:hover {
     background-color: #0f2f4f;
+}
+body{
+    background-image: url(imagem/jojo.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+main{
+    margin-bottom: 25rem;
+}
+section{
+    display: block;
+    background-color: black;
+    border-radius: 25px;
 }
 
 
